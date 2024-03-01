@@ -6,12 +6,12 @@ import {
 } from "react-native";
 
 // Importa estilos definidos externamente no arquivo stylescomponent
-import styles from "./styles/stylescomponent";
+import styles from "../styles/stylescomponent";
 
 // Importa os componentes personalizados do seu aplicativo
-import ComponentForm from "./components/component_form";
-import Componentbtn from "./components/component_btn";
-import Componentimg from "./components/component_img";
+import ComponentForm from "../components/component_form";
+import Componentbtn from "../components/component_btn";
+import Componentimg from "../components/component_img";
 
 // Função principal do aplicativo
 export default function App() {
@@ -29,7 +29,7 @@ export default function App() {
 
       {/* Componente ImageBackground exibe uma imagem de fundo com o estilo definido em styles.image */}
       <ImageBackground
-        source={require("./assets/fundo.webp")}
+        source={require("../assets/fundo.webp")}
         resizeMode="cover"
         style={styles.image}
       >
