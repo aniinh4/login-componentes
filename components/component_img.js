@@ -10,8 +10,6 @@ const Componentimg = () => {
   return (
     // Componente View representa um contêiner para organizar outros componentes
     <View style={styles.container}>
-      
-     
     </View>
   );
 };
