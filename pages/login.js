@@ -16,7 +16,6 @@ import Componentimg from "../components/component_img";
 // Função principal do aplicativo
 export default function App() {
 
-    
 
   // Função btn() é chamada quando o botão é pressionado, exibindo um alerta simples
   btn = () => {
