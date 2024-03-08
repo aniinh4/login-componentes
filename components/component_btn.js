@@ -1,6 +1,6 @@
 // Importa as bibliotecas necessárias do React e do React Native
 import React from 'react';
-import { View, Text, TextInput, Button } from 'react-native';
+import { View, Text, TextInput, Button, TouchableOpacity } from 'react-native';
 
 // Importa os estilos definidos externamente no arquivo stylescomponent
 import styles from '../styles/stylescomponent';
@@ -15,10 +15,12 @@ const Componentbtn = () => {
 
   return (
     // Componente View representa um contêiner para organizar outros componentes
-    <View style={styles.btn}>
+    <View style={styles.body}>
       
       {/* Componente Button que, quando pressionado, chama a função btn() */}
-      <Button onPress={btn} style={styles.btn} title="Logar" />
+      <TouchableOpacity onPress={btn} style={styles.button}>
+        <Text style={styles.login}>Login</Text>
+        </TouchableOpacity>
       
     </View>
   );

@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
       borderWidth: 1,
       borderColor: 'black',
       marginBottom: 25,
-      width: 500,
+      width: 300,
       height: 50,
       backgroundColor: 'white',
       borderBottomLeftRadius: 25,
@@ -53,13 +53,26 @@ const styles = StyleSheet.create({
         alignItems: "center",
         justifyContent: "center",
       },
-  
-      btn: {
-        top: "10%",
+
+      login: {
+        color:"black",
+      left: 15,
+      top: 5,
+        justifyContent: "center",
+        alignItems:"enter",
+    
        
       },
-    
-   
+  
+      button: {
+        backgroundColor:"white",
+        top: 50,
+        width: 70,
+        height: 30,
+        borderRadius: 20,
+       
+      },
+
   });
   
 
